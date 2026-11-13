@@ -1,0 +1,9 @@
+{
+  "qtype": "su_ticket.id_cliente",
+  "query": "{{id-cliente.cliente_id}}",
+  "oper": "=",
+  "rp": "1000",
+  "sortname": "su_ticket.id",
+  "sortorder": "asc",
+  "grid_param": "[{\"TB\":\"su_ticket.su_status\", \"OP\" : \"!=\", \"P\" : \"S\"},{\"TB\":\"su_ticket.su_status\", \"OP\" : \"!=\", \"P\" : \"C\"}]"
+}
